@@ -1,7 +1,7 @@
 # NorthBackup:
 *Cron compatible* shell script to backup and announnce players on a **detached screen based MineCraft Server**
 
-
+#### Important: this script need to run whit the same user as the minecraft screen and the cron!
 
 ##### reqirements in linux:
 - Insalled screen
