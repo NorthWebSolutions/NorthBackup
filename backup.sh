@@ -1,5 +1,5 @@
 #!/bin/bash
-#Desc:  Cron based bash script to remote screen backup and player anuance
+#Desc:  Cron based shell script to remote screen backup and player announce
 screen_name="MineCraft"			#remote screen name
 backup_date=$(date +%F_%H-%M)	#backup file date format change if nessesery
 
@@ -25,5 +25,5 @@ wait
 #turn save on
 screen -S $screen_name -p 0 -X stuff "save-on^M"
 wait
-#announnce players
+#announce players
 screen -S $screen_name -p 0 -X stuff "broadcast &3Backup &AFinished ^M"
