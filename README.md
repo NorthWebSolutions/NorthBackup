@@ -32,6 +32,8 @@ filename="minecraft_save_$backup_date.tar.gz"	#backup file name / change if ness
 ### Run:
 make sure, you have the permission to execute the backup.sh
 otherwise you can run the following from terminal
+```yourPathTo/backup.sh```
+or
 ```
 Cd /yourPathToBackupScript
 ./backup.sh"
